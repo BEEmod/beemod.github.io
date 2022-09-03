@@ -104,9 +104,11 @@
             <div class="u-accordion-pane u-container-style u-accordion-pane-3" id="accordion-eb1f" aria-labelledby="link-accordion-eb1f">
               <div class="u-container-layout u-container-layout-3">
                 <div class="fr-view u-clearfix u-rich-text u-text">
-                  <p>To fully uninstall BEE2.4, select the game you want to uninstall it from and choose <span style="font-style: italic;">
-                      <span style="text-decoration: underline;">File</span> &gt; <span style="text-decoration: underline;">Uninstall from Selected Game</span>
-                    </span>. This will completely remove BEE2.4 from the game, including editor textures and custom assets. You are then free to delete the folder containing the application and packages yourself.<br>
+                  <p>To fully uninstall BEE2.4, select the game you want to uninstall it from and choose <span>
+                      <span class="u-text-palette-2-dark-1">File</span>
+                    </span>
+                    <span style="font-style: italic;">&nbsp;&gt;&nbsp;</span>
+                    <span class="u-text-palette-2-dark-1">Uninstall from Selected Game</span>. This will completely remove BEE2.4 from the game, including editor textures and custom assets. You are then free to delete the folder containing the application and packages yourself.<br>
                     <br>We would <span style="font-weight: 700;">not</span> recommend "verify the game files" as an answer. Although the editor items and style will be restored to default, editor textures will not be reverted and many custom assets added by BEE2.4 will be left in the game files.
                   </p>
                 </div>
@@ -280,8 +282,7 @@
             <div class="u-accordion-pane u-container-style u-accordion-pane-15" id="09da" aria-labelledby="link-09da">
               <div class="u-container-layout u-container-layout-15">
                 <div class="fr-view u-clearfix u-rich-text u-text">
-                  <p>This is a known issue which seems to be related to audio caching, as the audio files themselves sound correct. One fix that seems to work is running the commands <span style="text-decoration: underline;">snd_updateaudiocache</span> and <span class="u-text-body-color" style="text-decoration: underline;">sv_soundemitter_flush</span>
-                    <span class="u-text-grey-75">&nbsp;</span>in the console, in that order. There's no way currently to make the mod apply this automatically, which is why the issue hasn't properly been fixed.
+                  <p>This is a known issue which seems to be related to audio caching, as the audio files themselves sound correct. One fix that seems to work is running the commands <span class="u-text-palette-2-dark-1">snd_updateaudiocache</span> and <span class="u-text-palette-2-dark-1">sv_soundemitter_flush </span>in the console, in that order. There's no way currently to make the mod apply this automatically, which is why the issue hasn't properly been fixed.
                   </p>
                 </div>
               </div>
@@ -311,7 +312,8 @@
                   <p id="isPasted">
                     <span style="font-style: italic;">puzzlemaker_export</span> does not work with BEEmod, as the custom compiler isn't able to modify the map and make it actually functional. Before reading on however, keep in mind that exporting Puzzlemaker maps to Hammer is usually not the best idea. If you want to make extensive modifications to a map, or are just starting out learning Hammer, it's generally easier to build a map from scratch, as Puzzlemaker maps are generated in a complex way making them difficult to edit by hand. Only consider exporting if you just want to make small adjustments to a map, and already have experience using Hammer.
                   </p>
-                  <p>If this is still what you want to do, first go into the BEE2 app and set Spawn Point to Elevator and disable Restart When Reaching Exit. Compile your map in Puzzlemaker, then open <span style="font-style: italic;">maps/styled/preview.vmf</span> in Hammer and resave it to a different location so it doesn't get overwritten. Additionally, check your Build Programs settings to make sure that you're using the BEE2 version of VRAD (simply called <span style="font-style: italic;">vrad.exe</span>), as this is needed for some features such as music to work.
+                  <p>If this is still what you want to do, first go into the BEE2 app and set Spawn Point to Elevator and disable Restart When Reaching Exit. Compile your map in Puzzlemaker, then open <span class="u-text-palette-2-dark-1">../</span>
+                    <span class="u-text-palette-2-dark-1">maps/styled/preview.vmf</span> in Hammer and resave it to a different location so it doesn't get overwritten. Additionally, check your Build Programs settings to make sure that you're using the BEE2 version of VRAD (simply called <span style="font-style: italic;">vrad.exe</span>), as this is needed for some features such as music to work.
                   </p>
                 </div>
               </div>
