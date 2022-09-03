@@ -587,7 +587,7 @@
 .u-section-3 .u-video-1 {
   width: 570px;
   height: 321px;
-  margin: 20px auto 30px;
+  margin: 20px auto 60px;
 }
 
 .u-section-3 .embed-responsive-1 {
@@ -596,7 +596,7 @@
 
 @media (max-width: 767px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1110px;
+    min-height: 779px;
   }
 
   .u-section-3 .u-text-2 {
@@ -615,7 +615,7 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 997px;
+    min-height: 553px;
   }
 
   .u-section-3 .u-text-2 {
